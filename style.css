@@ -296,6 +296,14 @@ h1 {
     flex-direction: column;
 }
 
+.team .swiper-button-next,
+.team .swiper-button-prev {
+    display: none !important;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 
 @media (min-width: 768px) {
     .event__logo img {
